@@ -59,9 +59,8 @@ if not os.path.exists('./strava_token.json'):
                   f'&scope=profile:read_all,activity:read_all'
 
     print('Click here:', request_url)
-    print('Please authorize the app and copy&paste below the generated code!')
-    print('P.S: you can find the code in the URL')
-    code = input('Insert the code from the url: ')
+    print('Please click the URL and authorize the app. After authorizing, you are redirected to a localhost URL. In this URL, can find a code between "code=" and "&". Copy this code and then paste it in the text box here!')
+    code = input('Insert the code from the localhost URL: ')
     
     token = request_token(client_id, client_secret, code)
 
