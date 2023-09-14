@@ -1,4 +1,5 @@
 # strava2notion
+This script loads all your Strava activities into a Notion database. Please follow the steps below in order to successfully run the script.
 
 ## Preparation
 
