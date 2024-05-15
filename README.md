@@ -4,7 +4,7 @@ This script loads all your Strava activities into a Notion database. Please foll
 ## Preparation
 
 ### Strava
-1. Go to https://www.developers.strava.com and click on 'Create & Magage Your App'.
+1. Go to https://www.developers.strava.com and click on 'Create & Manage Your App'.
 2. Create your app. It does not matter what information you fill in, but make sure your Authorization Callback Domain is set to 'localhost'.
 3. After creating the app, you should be able to see your Client ID and Client Secret. Copy and paste these codes into the strava2notion.py file.
 
